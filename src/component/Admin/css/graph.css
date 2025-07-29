@@ -1,0 +1,28 @@
+.petron-card{
+     height: 80px;
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px 20px 40px!important;
+}
+
+.petron-card2{
+     height: 225px;
+    background-color: #FE5D26;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px 20px 40px!important;
+
+}
+.petron-card3{
+     height: 225px;
+    background-color: #7F55B1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px 20px 40px!important;
+
+}
+

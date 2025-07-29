@@ -1,0 +1,33 @@
+.slider-area {
+  margin-top: 20px;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1, 
+.carousel-caption h5 {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* turn arrows white */
+}
+
+#hed {
+  font-size: 2rem;
+  font-weight: 600;
+}

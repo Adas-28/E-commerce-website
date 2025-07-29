@@ -1,0 +1,169 @@
+.crousel {
+    background-color: rgb(245, 245, 77);
+    color: red;
+    height: auto;
+}
+
+.category-card {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-content h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.deal-card{
+    margin: 10px 0px 10px 3.2px;
+    padding: 10px 5px;    
+    border: 2px solid rgb(200, 199, 199);
+    border-radius: 15px;
+    height: 300px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deal-card .image-card{
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.deal-card .image-card img{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: aqua;
+}
+
+.deal-card .image-card h5{
+    padding: 7px;
+    height: 50px;
+    color: #EB5B00;
+    border: 0.5px solid #3D8D7A;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+/* some product section */
+
+.dealm-card{
+    margin: 10px 0px 10px 3.2px;
+    padding: 10px 5px;    
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.dealm-card .man-card{
+    margin: 10px;
+    display: block;
+}
+
+.dealm-card .man-card img{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: #254D70;
+    border-radius: 50% 20% 0 0;
+}
+.dealm-card .man-card h5{
+    padding-top: 10px;
+    height: 50px;
+    background-color: #E7EFC7;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* .dealm-card .w-card{
+    height: 400px;
+    border: 1px solid rgb(167, 167, 167);
+} */
+.dealm-card .w-card img{
+    height: 300px;
+    
+}
+.dealm-card .w-card h5{
+    padding-top: 10px;
+    height: 50px;
+    background-color: #E7EFC7;
+    color: black;
+    text-decoration: none!important;
+    border-radius: 20px;
+}
+
+.dealm-card .k-card h3{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: #075B5E;
+    border-radius: 20px 20px 0 0;
+}
+.dealm-card .k-card h5{
+    height: 50px;
+    background-color: #954C2E;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+}
+
+/* about section */
+.about-sec h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.about-sec h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* footer */
+
+.footer-sec{
+    margin-top: 10px;
+    padding: 10px 0px 10px 100px;
+    height: auto;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+.footer-sec .footer{
+    padding: 10px 0px 10px 100px;
+    display: flex;
+}
+
+.footer-sec .footer h4{
+    font-size: 20px;
+}
+
+.footer-sec .footer p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}

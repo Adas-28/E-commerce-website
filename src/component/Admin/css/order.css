@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+thead {
+  background-color: #f4f4f4;
+}
+.status {
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.status.Pending {
+  background-color: orange;
+}
+.status.Delivered {
+  background-color: green;
+}
+.status.Cancelled {
+  background-color: red;
+}

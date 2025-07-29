@@ -1,0 +1,16 @@
+.pc .sc{
+    margin: 5px;
+    padding: 10px;
+    height: 300px;
+}
+
+.pc .sc p{
+    margin: 0;
+    height: 250px;
+    background-color: yellow;
+}
+
+.pc .sc h5{
+    height: 50px;
+    background-color: black;
+}

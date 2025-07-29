@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: #FFB823;
+    height: 45px;
+}
+
+.first .offer h5{
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.first .icon i {
+    display: block;
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Container row */
+.second {
+  padding: 15px 30px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #479ba9;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.second .icon-wrapper i {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.second .icon-wrapper span {
+  font-size: 11px;
+  text-align: center;
+}
+
+.second .icon-wrapper:hover {
+  color: #0d6efd;
+}
+
+
+/* Logo section */
+.logo h5 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+  color: #343a40;
+}
+
+/* Category icon nav */
+.cata {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cata a {
+  color: #495057;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.cata a:hover {
+  color: #0d6efd;
+}
+
+/* Search input */
+input.form-control {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+/* Search button */
+.search-btn button {
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 0.6rem;
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Cart icon */
+.fa-cart-shopping {
+  font-size: 1.5rem;
+  color: #212529;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.fa-cart-shopping:hover {
+  color: #0d6efd;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .cata {
+    justify-content: space-between;
+  }
+
+  .second {
+    padding: 10px 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5 {
+    margin-bottom: 10px;
+  }
+}
