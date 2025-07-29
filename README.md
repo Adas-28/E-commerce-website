@@ -28,6 +28,6 @@ This is a modern Admin Panel project built using **React**, **Vite**, and **Java
 
 ```bash
 git clone https://github.com/Adas-28/E-commerce-website.git
-cd my-project-03
+cd E-commerce-website
 npm install
 npm run dev
