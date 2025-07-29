@@ -1,12 +1,33 @@
-# React + Vite
+# 🧑‍💻 Admin Panel (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern Admin Panel project built using **React**, **Vite**, and **JavaScript**. It features a responsive layout and is suitable for dashboards, eCommerce admin systems, or internal tools.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite setup
+- React Router for page navigation
+- Admin Dashboard layout
+- Product Management UI
+- Sidebar / Topbar design
+- Reusable components
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS / Bootstrap
+- Axios
+- React Router DOM
+
+## 📸 Screenshots
+
+_(You can add screenshots later by pasting them here — just drag them in.)_
+
+## 📦 Installation (Run Locally)
+
+```bash
+git clone https://github.com/Adas-28/my-project-03.git
+cd my-project-03
+npm install
+npm run dev
