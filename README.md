@@ -27,7 +27,7 @@ This is a modern Admin Panel project built using **React**, **Vite**, and **Java
 ## 📦 Installation (Run Locally)
 
 ```bash
-git clone https://github.com/Adas-28/my-project-03.git
+git clone https://github.com/Adas-28/E-commerce-website.git
 cd my-project-03
 npm install
 npm run dev
