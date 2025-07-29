@@ -22,7 +22,7 @@ This is a modern Admin Panel project built using **React**, **Vite**, and **Java
 
 ## 📸 Screenshots
 
-_(You can add screenshots later by pasting them here — just drag them in.)_
+
 
 ## 📦 Installation (Run Locally)
 
